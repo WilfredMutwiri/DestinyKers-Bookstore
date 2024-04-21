@@ -355,9 +355,9 @@ const Home = () => {
                 <h2 class="text-lg md:text-2xl font-semibold pb-3"><span class="text-orange-500">~</span>Celebrating mother Gifts!</h2>
                 <p class="text-blue-600 hover:text-orange-500 cursor-pointer">See All</p>
                 </span>
-                <div class="flex" id='mothersday'>
+                <div class="block md:flex" id='mothersday'>
                     {/* the right aside book */}
-                    <div class="mr-10 w-96">
+                    <div class="mr-0 md:mr-10 w-96">
                         <img class="w-full" src={neverLie} alt='youLikeItDarker cover'/>
                         <div class="bg-gray-900 text-white p-3">
                             <h2 class="text-orange-500 text-lg">Author : Stephen King</h2>
@@ -380,7 +380,7 @@ const Home = () => {
                     {/* the left side books */}
                     <div class="">
                         {/* first grid */}
-                        <div class="grid grid-cols-4 mb-5">
+                        <div class="block md:grid grid-cols-4 mb-5">
                             {/* first left side grid 1 book */}
                         <div class="mr-0 md:mr-5 mb-5 md:mb-0">
                             <img class="h-auto md:h-72 w-full" src={hunting} alt='hunting cover'/>
