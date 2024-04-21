@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navLi{
+    @apply mr-3 text-center flex hover:bg-gray-300 hover:text-orange-500 rounded-md p-2 md:p-0
+}
+.navLiSpan{
+    @apply hidden md:block text-orange-500 pl-2
+}
