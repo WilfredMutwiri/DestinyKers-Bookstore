@@ -431,7 +431,7 @@ const Home = () => {
                         </div>
                         </div>
                         {/* second grid */}
-                        <div class="grid grid-cols-4">
+                        <div class="block md:grid grid-cols-4">
                             {/* first second left aside grid book */}
                         <div class="mr-0 md:mr-5 mb-5 md:mb-0">
                             <img class="h-auto md:h-72 w-full" src={lifeInPrison} alt='lifeInPrison cover'/>
