@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import navBanner from '../images/navBAnner.jpg'
 import { useState,useEffect,useRef} from 'react';
 const NavBar = () => {
@@ -77,9 +78,12 @@ const NavBar = () => {
                     </svg>
                     <h2 class="ml-2">My Account
                     <ul ref={moreNavInfo} onMouseLeave={closeLogins} class="z-50 absolute bg-gray-300 w-28 p-3 hidden">
+                        <Link to="/login">
                         <li class="font-semibold text-orange-500">Login</li>
+                        </Link>
+                        <Link to="/signup">
                         <li class="font-semibold text-blue-600">SignUp</li>
-                    </ul>
+                        </Link>                    </ul>
                     </h2>
                     <svg ref={moreNavIcon} onMouseEnter={revealLogins} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-1 text-blue-600">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
